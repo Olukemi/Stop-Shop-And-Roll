@@ -1,0 +1,2 @@
+# Stop-Shop-And-Roll
+Stop, Shop, and Roll is revolutionizing your meal planning experiences. We are committed to helping you create a grocery list that has all the ingredients for your meals in one neat list. Along the way, there were obstacles we faced, errors we made, and time constraints we had to stick to. Ultimately, we prevailed over these difficulties and are proud to present to you our paperless and easy-to-use solution: Stop, Shop, and Roll.
