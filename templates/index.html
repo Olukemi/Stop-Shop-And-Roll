@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href= "{{ url_for('static',filename='index.css') }}">
+    <title>Dinner Awaits</title>
+</head>
+<body>
+    <section>
+        <h1>STOP, SHOP & ROLL</h1>
+        <!--<img src="images/SSR.png" width="1350">-->
+    </section>
+    <form action="/hello" method="post">
+        <h5>Let's see what we are having today!</h5>
+        <div class="user-input">
+            <!-- user enters recipe link -->
+            <label>Meal 1</label><br>
+            <input name="meal1" type="url" placeholder="Enter recipe"><br><br>
+            <label>Meal 2</label><br>
+            <input name="meal2" type="url" placeholder="Enter recipe"><br><br>
+            <label>Meal 3</label><br>
+            <input name="meal3" type="url" placeholder="Enter recipe"><br><br>
+            <label>Meal 4</label><br>
+            <input name="meal4" type="url" placeholder="Enter recipe"><br><br>
+            <label>Meal 5</label><br>
+            <input name="meal5" type="url" placeholder="Enter recipe"><br><br>
+        </div>
+        <br>
+        <br>
+        <div class="user-email">
+            <label>Email</label>
+            <input name="email" type="email" placeholder="Enter email"><br><br>
+        </div>
+        <!-- submit -->
+        <div class="submit-btn">
+            <input type="submit" value="What will I need?"><br><br>
+        </div>
+    </form>
+
+    <h3>Schedule</h3>
+    <div class="schedule">
+        <div  class= "columns">
+            <div class="mon">
+                <h2>Monday</h2>
+                <div class="breakfast">
+                    <select class="select">
+                        <option disabled selected>Breakfast</option>
+                        <option value="meal1">Meal 1</option>
+                        <option value="meal2">Meal 2</option>
+                        <option value="meal3">Meal 3</option>
+                        <option value="meal4">Meal 4</option>
+                        <option value="meal5">Meal 5</option>
+                    </select>
+                </div>
+                <br>
+                <div class="lunch">
+                    <select class="select">
+                        <option disabled selected>Lunch</option>
+                        <option value="meal1">Meal 1</option>
+                        <option value="meal2">Meal 2</option>
+                        <option value="meal3">Meal 3</option>
+                        <option value="meal4">Meal 4</option>
+                        <option value="meal5">Meal 5</option>
+                    </select>
+                </div>
+                <br>
+                <div class="Dinner">
+                    <select class="select">
+                        <option disabled selected>Dinner</option>
+                        <option value="meal1">Meal 1</option>
+                        <option value="meal2">Meal 2</option>
+                        <option value="meal3">Meal 3</option>
+                        <option value="meal4">Meal 4</option>
+                        <option value="meal5">Meal 5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="tues">
+                <h2>Tuesday</h2>
+                <div class="breakfast">
+                    <select class="select">
+                        <option disabled selected>Breakfast</option>
+                        <option value="meal1">Meal 1</option>
+                        <option value="meal2">Meal 2</option>
+                        <option value="meal3">Meal 3</option>
+                        <option value="meal4">Meal 4</option>
+                        <option value="meal5">Meal 5</option>
+                    </select>
+                </div>
+                <br>
+                <div class="lunch">
+                    <select class="select">
+                        <option disabled selected>Lunch</option>
+                        <option value="meal1">Meal 1</option>
+                        <option value="meal2">Meal 2</option>
+                        <option value="meal3">Meal 3</option>
+                        <option value="meal4">Meal 4</option>
+                        <option value="meal5">Meal 5</option>
+                    </select>
+                </div>
+                <br>
+                <div class="Dinner">
+                    <select class="select">
+                        <option disabled selected>Dinner</option>
+                        <option value="meal1">Meal 1</option>
+                        <option value="meal2">Meal 2</option>
+                        <option value="meal3">Meal 3</option>
+                        <option value="meal4">Meal 4</option>
+                        <option value="meal5">Meal 5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="wed">
+                <h2>Wednesday</h2>
+                <div class="breakfast">
+                    <select class="select">
+                        <option disabled selected>Breakfast</option>
+                        <option value="meal1">Meal 1</option>
+                        <option value="meal2">Meal 2</option>
+                        <option value="meal3">Meal 3</option>
+                        <option value="meal4">Meal 4</option>
+                        <option value="meal5">Meal 5</option>
+                    </select>
+                </div>
+                <br>
+                <div class="lunch">
+                    <select class="select">
+                        <option disabled selected>Lunch</option>
+                        <option value="meal1">Meal 1</option>
+                        <option value="meal2">Meal 2</option>
+                        <option value="meal3">Meal 3</option>
+                        <option value="meal4">Meal 4</option>
+                        <option value="meal5">Meal 5</option>
+                    </select>
+                </div>
+                <br>
+                <div class="Dinner">
+                    <select class="select">
+                        <option disabled selected>Dinner</option>
+                        <option value="meal1">Meal 1</option>
+                        <option value="meal2">Meal 2</option>
+                        <option value="meal3">Meal 3</option>
+                        <option value="meal4">Meal 4</option>
+                        <option value="meal5">Meal 5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="thurs">
+                <h2>Thursday</h2>
+                <div class="breakfast">
+                    <select class="select">
+                        <option disabled selected>Breakfast</option>
+                        <option value="meal1">Meal 1</option>
+                        <option value="meal2">Meal 2</option>
+                        <option value="meal3">Meal 3</option>
+                        <option value="meal4">Meal 4</option>
+                        <option value="meal5">Meal 5</option>
+                    </select>
+                </div>
+                <br>
+                <div class="lunch">
+                    <select class="select">
+                        <option disabled selected>Lunch</option>
+                        <option value="meal1">Meal 1</option>
+                        <option value="meal2">Meal 2</option>
+                        <option value="meal3">Meal 3</option>
+                        <option value="meal4">Meal 4</option>
+                        <option value="meal5">Meal 5</option>
+                    </select>
+                </div>
+                <br>
+                <div class="Dinner">
+                    <select class="select">
+                        <option disabled selected>Dinner</option>
+                        <option value="meal1">Meal 1</option>
+                        <option value="meal2">Meal 2</option>
+                        <option value="meal3">Meal 3</option>
+                        <option value="meal4">Meal 4</option>
+                        <option value="meal5">Meal 5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="fri">
+                <h2>Friday</h2>
+                <div class="breakfast">
+                    <select class="select">
+                        <option disabled selected>Breakfast</option>
+                        <option value="meal1">Meal 1</option>
+                        <option value="meal2">Meal 2</option>
+                        <option value="meal3">Meal 3</option>
+                        <option value="meal4">Meal 4</option>
+                        <option value="meal5">Meal 5</option>
+                    </select>
+                </div>
+                <br>
+                <div class="lunch">
+                    <select class="select">
+                        <option disabled selected>Lunch</option>
+                        <option value="meal1">Meal 1</option>
+                        <option value="meal2">Meal 2</option>
+                        <option value="meal3">Meal 3</option>
+                        <option value="meal4">Meal 4</option>
+                        <option value="meal5">Meal 5</option>
+                    </select>
+                </div>
+                <br>
+                <div class="Dinner">
+                    <select class="select">
+                        <option disabled selected>Dinner</option>
+                        <option value="meal1">Meal 1</option>
+                        <option value="meal2">Meal 2</option>
+                        <option value="meal3">Meal 3</option>
+                        <option value="meal4">Meal 4</option>
+                        <option value="meal5">Meal 5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="sat">
+                <h2>Saturday</h2>
+                <div class="breakfast">
+                    <select class="select">
+                        <option disabled selected>Breakfast</option>
+                        <option value="meal1">Meal 1</option>
+                        <option value="meal2">Meal 2</option>
+                        <option value="meal3">Meal 3</option>
+                        <option value="meal4">Meal 4</option>
+                        <option value="meal5">Meal 5</option>
+                    </select>
+                </div>
+                <br>
+                <div class="lunch">
+                    <select class="select">
+                        <option disabled selected>Lunch</option>
+                        <option value="meal1">Meal 1</option>
+                        <option value="meal2">Meal 2</option>
+                        <option value="meal3">Meal 3</option>
+                        <option value="meal4">Meal 4</option>
+                        <option value="meal5">Meal 5</option>
+                    </select>
+                </div>
+                <br>
+                <div class="Dinner">
+                    <select class="select">
+                        <option disabled selected>Dinner</option>
+                        <option value="meal1">Meal 1</option>
+                        <option value="meal2">Meal 2</option>
+                        <option value="meal3">Meal 3</option>
+                        <option value="meal4">Meal 4</option>
+                        <option value="meal5">Meal 5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="sun">
+                <h2>Sunday</h2>
+                <div class="breakfast">
+                    <select class="select">
+                        <option disabled selected>Breakfast</option>
+                        <option value="meal1">Meal 1</option>
+                        <option value="meal2">Meal 2</option>
+                        <option value="meal3">Meal 3</option>
+                        <option value="meal4">Meal 4</option>
+                        <option value="meal5">Meal 5</option>
+                    </select>
+                </div>
+                <br>
+                <div class="lunch">
+                    <select class="select">
+                        <option disabled selected>Lunch</option>
+                        <option value="meal1">Meal 1</option>
+                        <option value="meal2">Meal 2</option>
+                        <option value="meal3">Meal 3</option>
+                        <option value="meal4">Meal 4</option>
+                        <option value="meal5">Meal 5</option>
+                    </select>
+                </div>
+                <br>
+                <div class="Dinner">
+                    <select class="select">
+                        <option disabled selected>Dinner</option>
+                        <option value="meal1">Meal 1</option>
+                        <option value="meal2">Meal 2</option>
+                        <option value="meal3">Meal 3</option>
+                        <option value="meal4">Meal 4</option>
+                        <option value="meal5">Meal 5</option>
+                    </select>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
